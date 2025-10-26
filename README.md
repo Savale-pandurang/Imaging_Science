@@ -55,7 +55,7 @@ cd Imaging_Science
 
 pip install -r requirements.txt
 
-### 4. Run the Project
+### 4. Run the Project.
 
 ##### Finally, run the main script to start the project:
 
