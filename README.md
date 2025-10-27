@@ -36,26 +36,19 @@ Finally, for color images, this process is applied to each RGB channel and joint
 
 ---
 
-- You can clone this repository using the following command:
+-### 🚀 Setup Instructions
+
+You can set up the project using the following commands:
 
 ```bash
+# 1. Clone the repository
 git clone https://github.com/Savale-pandurang/Imaging_Science.git
 
-
-### 2. Navigate to the Project Directory
-
-##### Change your current directory to the newly cloned project folder:
-
+# 2. Navigate to the project directory
 cd Imaging_Science
 
-### 3. Install Required Dependencies
-
-##### Once your virtual environment is activated, install all the necessary packages listed in the requirements.txt file:
-
+# 3. Install required dependencies
 pip install -r requirements.txt
 
-### 4. Run the Project.
-
-##### Finally, run the main script to start the project:
-
+# 4. Run the project
 python main.py
