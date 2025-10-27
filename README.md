@@ -21,11 +21,16 @@ By subtracting this illumination from the log image, the reflectance the real te
 Finally, for color images, this process is applied to each RGB channel and joint normalization is performed to preserve true color ratios, reflecting the paper’s discussion on color constancy and illumination normalization.
 
 
-![Input Image](input_Images/paper-texture-hand-made-white-rough-light-photo-5.jpg)
-
-
-![Output Image](output_images/paper-texture-hand-made-white-rough-light-photo-5_reflectance_color.png)
-
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="text-align: center;">
+    <h4>Input Image</h4>
+    <img src="input_Images/paper-texture-hand-made-white-rough-light-photo-5.jpg" alt="Input Image" width="250">
+  </div>
+  <div style="text-align: center;">
+    <h4>Output Image</h4>
+    <img src="output_images/paper-texture-hand-made-white-rough-light-photo-5_reflectance_color.png" alt="Output Image" width="250">
+  </div>
+</div>
 
 # Imaging_Science Project
 
