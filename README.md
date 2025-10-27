@@ -57,4 +57,8 @@ pip install -r requirements.txt
 ```
 #### 4. Run the project
 ```
-python main.py
+python3 main.py
+```
+#### give input_path 
+```
+input_Images/paper-texture-hand-made-white-rough-light-photo-5.jpg
