@@ -1,4 +1,4 @@
-Problem Statement – Imaging Science
+## Problem Statement – Imaging Science
 
 The task is to fix uneven lighting in an image (like paper or fabric) and recover the true texture of the surface.
 We model the image as:
@@ -9,7 +9,8 @@ where R(x, y) is the texture and L(x, y) is the illumination.
 The goal is to separate these components in the log domain, manually extract high (texture) and low (lighting) frequencies, and reconstruct the reflectance image.
 The method also works for color images, correcting illumination while preserving natural colors.
 
-Reference :- To solve the problem of uneven lighting in images, where some regions appear brighter or darker due to non-uniform illumination, the approach refers to the paper “Uneven illumination correction of digital images: A survey of the state of the art” by Nilanjan Dey, Department of Information Technology, Techno India College of Technology, West Bengal, India.
+##   Reference :
+To solve the problem of uneven lighting in images, where some regions appear brighter or darker due to non-uniform illumination, the approach refers to the paper “Uneven illumination correction of digital images: A survey of the state of the art” by Nilanjan Dey, Department of Information Technology, Techno India College of Technology, West Bengal, India.
 
 To solve this problem, the Retinex model (I = R × L) described in the paper is used, which separates the image into reflectance (true texture) and illumination (lighting).
 
@@ -44,16 +45,16 @@ You can clone this repository using the following command:
 ```bash
 git clone https://github.com/Savale-pandurang/Imaging_Science.git
 ```
-2. Navigate to the Project Directory
+#### 2. Navigate to the Project Directory
 
 Change your current directory to the newly cloned project folder:
 ```
 cd Imaging_Science
 ```
-# 3. Install required dependencies
+#### 3. Install required dependencies
 ```
 pip install -r requirements.txt
 ```
-# 4. Run the project
+#### 4. Run the project
 ```
 python main.py
