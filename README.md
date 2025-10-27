@@ -36,12 +36,11 @@ Finally, for color images, this process is applied to each RGB channel and joint
 
 ---
 
-### 1. Clone the Repository
+- You can clone this repository using the following command:
 
-##### Open your terminal or command prompt and run the following command to clone this repository to your local machine:
-
-
+```bash
 git clone https://github.com/Savale-pandurang/Imaging_Science.git
+
 
 ### 2. Navigate to the Project Directory
 
